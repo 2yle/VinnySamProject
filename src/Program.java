@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Program {
+public class Program {//commit
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
