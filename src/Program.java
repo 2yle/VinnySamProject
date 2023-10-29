@@ -42,7 +42,7 @@ public class Program {//commit
 // Nonlinear System of Equations:
 
 
-// Options to choose from:
+// Options to choose from://
 
         String[] methodArray = new String[4];
 

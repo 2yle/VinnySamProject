@@ -10,4 +10,5 @@ public class notes {
 System.lineSeparator(); Just separate lines and more compatible than \n.
  */
 
-
+//
+//
