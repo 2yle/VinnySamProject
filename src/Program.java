@@ -55,13 +55,13 @@ public class Program {//commit
 
         //System.lineSeparator is just another way to indent. (Starting an empty line)
 
-        System.out.println("Welcome to the Sales Calculator Program:" + System.lineSeparator() + " ");
+        System.out.println("Welcome to the Sales Calculator Program:\n" + " ");
         SleepThread.main(new String[0]);
         System.out.println("1.) Start");
         SleepThread.main(new String[0]);
         System.out.println("2.) Select an Algorithm");
         SleepThread.main(new String[0]);
-        System.out.println("3.) Help " + System.lineSeparator());
+        System.out.println("3.) Help\n ");
         SleepThread.main(new String[0]);
 
         numchoose = scan.nextInt();
@@ -70,12 +70,11 @@ public class Program {//commit
         switch (numchoose) {
             case 1 -> {
                 SleepThread.main(new String[0]);
-                System.out.println("Start" + System.lineSeparator());
+                System.out.println("Start\n");
                 System.out.println("What is the name of the product?");
             }
             case 2 -> {
-                SleepThread.main(new String[0]);
-                System.out.println("Select an Algorithm" + System.lineSeparator());
+                System.out.println("Select an Algorithm\n");
                 SleepThread.main(new String[0]);
                 System.out.println(methodArray[0]);
                 SleepThread.main(new String[0]);
@@ -88,11 +87,11 @@ public class Program {//commit
             }
             case 3 -> {
                 SleepThread.main(new String[0]);
-                System.out.println("HELP" + System.lineSeparator());
+                System.out.println("HELP\n");
             }
             default -> {
                 System.out.println(RED + "ERROR 01: NOT AN OPTION");
-                System.out.println("RETURNING TO MAIN MENU . . ." + System.lineSeparator() + RESET);
+                System.out.println("RETURNING TO MAIN MENU . . .\n" + RESET);
                  try {
                     Thread.sleep(1500, 1500); // Pause for 3 seconds
                  } catch (InterruptedException e) {
